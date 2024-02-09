@@ -14,8 +14,8 @@ app.use(express.json());
 
 // Define CORS policy for cross-origin requests
 let corspolicy = {
-    origin: "http://localhost:3000"
-};
+    origin: process.env.FrontendURI
+}
 app.use(cors(corspolicy));
 
 // Middleware to log the timestamp of incoming requests
