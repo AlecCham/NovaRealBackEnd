@@ -5,7 +5,7 @@ let allroutes = express.Router();
 const multer = require("multer");
 const upload = multer();
 
-// Root route - Welcome message
+// Root route - Welcome message - check deploy
 allroutes.get('/', (req, res) => {
     console.log("Reached root");
     res.send("Welcome to the Nova Real Estate back end server");

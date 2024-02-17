@@ -14,7 +14,7 @@ app.use(express.json());
 
 // Define CORS policy for cross-origin requests
 let corspolicy = {
-    origin: process.env.FrontendURI
+    origin: process.env.FrontendURL
 }
 app.use(cors(corspolicy));
 
