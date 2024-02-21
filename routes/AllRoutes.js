@@ -11,7 +11,7 @@ allroutes.get('/', (req, res) => {
     res.send("Welcome to the Nova Real Estate back end server");
 });
 
-// Fetch all houses - GET request
+// Fetch all houses - GET request chan
 allroutes.get('/houses', async (req, res) => {
     console.log("Reached /houses");
     try {
